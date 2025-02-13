@@ -231,3 +231,29 @@ hr {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     margin: 10px 0;
 }
+
+footer.footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer.footer .copyright {
+  font-size: 16px; /* Ukuran teks diperbesar */
+  font-weight: bold; /* Teks jadi lebih tebal */
+  color: #fff; /* Warna teks hitam */
+}
+
+footer.footer .copyright a.yudzdev-link {
+  color: #007BFF; /* Warna biru */
+  text-decoration: none; /* Hilangkan garis bawah */
+  transition: color 0.3s ease;
+}
+
+footer.footer .copyright a.yudzdev-link:hover {
+  color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+footer.footer.light {
+  background: rgba(0, 0, 0, 0.0); /* Warna gelap */
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
